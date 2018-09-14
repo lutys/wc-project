@@ -15,13 +15,6 @@ public class extended_function_recursion { //扩展功能第二部分支持 -s递归处理目录
 		String path = null;
 		if(l.size()>=1)path = l.get(0);  //提取文件路径
 		System.out.println("该目录下符合要求的文件的绝对路径为："+path);
-		System.out.println("以下为递归处理目录下符合条件的文件的属性：");
-		bf.lineNum(path);  //以下为文件属性
-		bf.strNum(path);
-		bf.wordNum(path);
-		ef.codeline(path);
-		ef.blankline(path);
-		ef.commentline(path);
 	}
 
 	public static void find(File file,String fileName,List<String> l) {  
